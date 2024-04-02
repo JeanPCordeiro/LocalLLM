@@ -1,0 +1,48 @@
+    1  curl https://ollama.ai/install.sh | sh
+    2  olllama list
+    3  ollama list
+    4  systemctl status ollama
+    5  ls
+    6  which ollama
+    7  ollama --help
+    8  ollama list
+    9  ollama
+   10  ollama pull mistral:7b-instruct-q2_K
+   11  ollama list
+   12  ollama pull llama2
+   13  ollama run llama2
+   14  sudo apt update && sudo apt install npm python3-pip git -y
+   15  sudo docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+   16  docker ps
+   17  docker stop 49d
+   18  sudo docker run -p 3000:8080 -e OLLAMA_API_BASE_URL=https://11434-jeanpcordeiro-localllm-6s5e6r73q5h.ws-eu110.gitpod.io/api -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+   19  docker rm 49d
+   20  sudo docker run -p 3000:8080 -e OLLAMA_API_BASE_URL=https://11434-jeanpcordeiro-localllm-6s5e6r73q5h.ws-eu110.gitpod.io/api -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+   21  docker ps -a
+   22  docker stop 191
+   23  docker stop 7912
+   24  docker rm 7912
+   25  docker ps -a
+   26  sudo docker run -p 3000:8080 -e OLLAMA_API_BASE_URL=https://11434-jeanpcordeiro-localllm-6s5e6r73q5h.ws-eu110.gitpod.io -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+   27  docker ps
+   28  docker ps -a
+   29  docker rm 300
+   30  docker stop 300
+   31  git clone https://github.com/ollama-webui/ollama-webui.git
+   32  cd ollama-webui/
+   33  cp -RPp .env.example .env
+   34  vi .env
+   35  npm i && npm run build
+   36  cd backend
+   37  sudo pip install -r requirements.txt -U
+   38  ls
+   39  history
+   40  cd
+   41  pwd
+   42  ls
+   43  cd /workspace/
+   44  ls
+   45  cd LocalLLM/
+   46  ls
+   47  history
+   48  history > history
